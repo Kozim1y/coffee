@@ -1,0 +1,23 @@
+.header-inner {
+  @include flexes(space-between, center);
+}
+
+.nav-list {
+  @include flexes(space-between, center);
+}
+
+.nav-list__item {
+  margin: 0 50px;
+}
+
+.nav-list__link {
+  @include global-text(500, 18px, 29px, $dark-color);
+}
+
+.nav-icons {
+  @include flexes(space-between, center);
+}
+
+.nav-icons__item {
+  margin-left: 30px;
+}

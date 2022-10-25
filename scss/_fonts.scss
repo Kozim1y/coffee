@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-weight: 400;
+  src:
+    url("../fonts/atkinson-hyperlegible-v10-latin-regular.woff2") format("woff2"),
+    url("../fonts/atkinson-hyperlegible-v10-latin-regular.woff") format("woff"),
+    url("../fonts/atkinson-hyperlegible-v10-latin-regular.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-weight: 700;
+  src: 
+    url("../fonts/atkinson-hyperlegible-v10-latin-700.woff2") format("woff2"),
+    url("../fonts/atkinson-hyperlegible-v10-latin-700.woff") format("woff"),
+    url("../fonts/atkinson-hyperlegible-v10-latin-700.ttf") format("truetype"),
+}
