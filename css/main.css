@@ -71,4 +71,27 @@ img {
 
 .nav-icons__item {
   margin-left: 30px;
+}
+
+.nav-icons__search {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-image: url("../../images/search-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: none;
+  padding-left: 30px;
+  -webkit-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.nav-icons__search:focus {
+  position: relative;
+  z-index: 2;
+  background-size: contain;
+  width: 100px;
+  -webkit-box-shadow: 0 0 10px red;
+          box-shadow: 0 0 10px red;
 }/*# sourceMappingURL=main.css.map */
